@@ -13,37 +13,27 @@ If possible, work with [uv](https://astral.sh/uv/). Clone the repository and run
 
 Create an venv or conda environment and install the following packages:
 
-* accelerate
-* bitsandbytes
-* device-smi
-* exllamav2
-* flash-attn
-* flashinfer-python
+* causal-conv1d
+* flash-linear-attention
 * ipykernel
-* ipython
 * ipywidgets
 * jupyter
+* kernels
 * langchain
+* langchain-classic
 * langchain-community
 * langchain-huggingface
-* logbar
-* nvidia-ml-py
+* matplotlib
 * openai
-* optimum
 * pandas
-* pip
-* pymilvus
 * sentence-transformers
 * spacy
 * tantivy
-* tokenicer
 * tqdm
 * transformers
 * txtai
 * usearch
 * vllm
-
-`flash-attn` should be installed with the option `--no-build-isolation`.
 
 Of course, you can also Use the supplied `requirements.txt`, but some dependencies might be outdated.
 
