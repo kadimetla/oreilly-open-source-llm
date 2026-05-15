@@ -15,20 +15,17 @@ background and theroretical information.
 You can either try to run the notebooks directly
 or try to follow how I run them and use it as a 
 documentation (or run it later).
+* [11-qwen3.5-9b.ipynb](11-qwen3.5-9b.ipynb: Run a Qwen3.5 model with the `transformers` library)
+* [12-gemma4-e4b.ipynb](12-gemma4-e4b.ipynb: Run a Gemma 4 model with the `transformers` library)
+* [21-vllm-direct.ipynb](21-vllm-direct.ipynb: Use `vllm` as a runtime environment instead of `transformers`)
+* [22-vllm-direct-awq.ipynb](22-vllm-direct-awq.ipynb: Use `vllm` with quantization as a runtime environment instead of `transformers`)
+* [23-vllm-api.ipynb](23-vllm-api.ipynb: Use `vllm` as a server)
+* [24-tabbyAPI.ipynb](24-tabbyAPI.ipynb: Use `tabbyAPI` as a server)
+* [25-llama-cpp.ipynb](25-llama-cpp.ipynb: Use `llama.cpp` as a server)
+
 
 
 ### Text generation using `transformers`
-[11a-qwen-8b.ipynb](11a-qwen-8b.ipynb): Naively run Qwen-8B and fail.
-[11b-qwen-8b.ipynb](11b-qwen-8b.ipynb): Run Qwen-8B with the correct data type, generate text and see how the model behaves when sampling is switched off. 
-[12-qwen-7b-gptq.ipynb](12-qwen-7b-gptq.ipynb): Formely, you could run GPTQ models with transformers or at least use the Hugging Face infrastructure. This is not useful anymore.
-[13-qwen-8b-awq.ipynb](13-qwen-8b-awq.ipynb): AWQ quantization was integrated into Hugging Face transformers, but this has been discontinued.
-[14-qwen-8b-exl2.ipynb](14-qwen-8b-exl2.ipynb): exl2 is both a quantization method and a execution framework with dedicated kernels. It is very fast.
-[15-qwen-8b-stream-exl2.ipynb](15-qwen-8b-stream-exl2.ipynb): This contains the streaming version of exl2 text generation.
-
-### Text generation using separate software
-[21-tgi.ipynb](21-tgi.ipynb): TGI is a server software from Hugging Face for LLMs. vllm however is more popular and now also more powerful.
-[22-vllm-direct.ipynb](22-vllm-direct.ipynb): vllm can be used as a library or as a server. This notebook contains the librar code.
-[23-vllm-api.ipynb](23-vllm-api.ipynb): This notebook uses the API of vllm which is compatible to the OpenAI API.
 
 ## Running LLMs on the CPU
 
